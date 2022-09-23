@@ -7,6 +7,7 @@ recipe_template = """---
 layout: recipe
 title: "{title}"
 image: {image}
+original: {url}
 tags:
 
 ingredients:
@@ -49,7 +50,7 @@ def scrape(url):
     img_path = write_image(scraper.image(), filename)
     img_ext = scraper.image().split('.')[-1]
 
-    recipe = recipe_template.format(title = scraper.title(), image=filename+'.'+img_ext, ingredients=ingredients, directions=directions)
+    recipe = recipe_template.format(title = scraper.title(), image=filename+'.'+img_ext, ingredients=ingredients, directions=directions, url=url)
 
     f = open("./_recipes/{}".format(filename) + ".md", "w")
     f.write(recipe)
