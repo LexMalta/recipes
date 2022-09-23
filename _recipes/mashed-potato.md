@@ -2,16 +2,15 @@
 layout: recipe
 title: "Mashed Potato"
 image: mashed-potato.webp
-tags: potato
+tags: dinner
 
 ingredients:
-- potatoes
+- potatoes, _peeled and roughly chopped_
 - butter
 - milk
 
 directions:
 - Boil a good amount of water in a pot
-- Roughly chop potatoes
 - Put potatoes into boiling water, and bring water back to boil
 - Boil for 10-15 minutes, until potatoes soft all the way through
 - Strain
