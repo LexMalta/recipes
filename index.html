@@ -12,7 +12,7 @@ layout: default
     cursor: pointer;
     position: relative;
     top: -40px;
-    right: -90%;
+    right: -85%;
   }
   .close-icon:after {
     content: "X";
@@ -40,7 +40,7 @@ layout: default
 <div class="search container max-width-2 used" style="height: 126px">
   <div id="search-container">
     <h3 class="center mb3 blue">Search</h3>
-    <form>
+    <form id="the-form">
       <input
         type="search"
         id="search-input"
@@ -80,8 +80,9 @@ layout: default
       } else {
         $(".home").css("display", "block");
       }
-      // currentHeight = $("#search-container").outerHeight();
-      // $(".search").addClass("used").css("height", currentHeight);
+      $("#the-form").on("reset", function (e) {
+        $(".home").css("display", "block");
+      });
     });
   });
 </script>
@@ -109,7 +110,13 @@ layout: default
             endfor
             %}
           ></div>
-          <h1 class="title p2 m0 absolute bold white bottom-0 left-0" style="text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;">
+          <h1
+            class="title p2 m0 absolute bold white bottom-0 left-0"
+            style="
+              text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000,
+                -1px 0 0 #000;
+            "
+          >
             {{ post.title }}
           </h1>
         </a>
