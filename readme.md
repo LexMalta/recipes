@@ -8,6 +8,9 @@ A simple recipe site, soft-forked from: [http://chowdown.io](http://chowdown.io)
 - `gem install bundler jekyll` (for more info see https://jekyllrb.com/)
 - `jekyll serve --live` to run locally
 
+# Importing a recipe
+- Install python 3
+- Run `python ./recipe-importer/main.py '<url_of_recipe>'`
 # Writing a Recipe
 
 The recipes are stored in the collection "Recipes" (the folder /_recipes).
