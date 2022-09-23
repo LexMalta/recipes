@@ -78,7 +78,7 @@ layout: default
         <ul itemprop="ingredients">
           <!-- list ingredients that make up recipe -->
           {% for ingredient in page.ingredients %}
-          <li itemprop="recipeIngredient">{{ ingredient | markdownify }}</li>
+          <li class="ingredient" itemprop="recipeIngredient">{{ ingredient | markdownify }}</li>
           {% endfor %}
         </ul>
         {% endif %}
