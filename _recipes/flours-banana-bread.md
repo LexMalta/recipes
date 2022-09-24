@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: "Flour's banana bread"
+title: "Flour's Banana Bread"
 image: flours-banana-bread.png
 tags: cake, dessert
 original: https://www.foodnetwork.com/recipes/flours-famous-banana-bread-recipe-2015076
