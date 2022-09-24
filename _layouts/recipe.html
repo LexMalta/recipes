@@ -27,7 +27,7 @@ layout: default
           max-height: 306px;
         "
       />
-      {% if page.imagecredit %} 
+      {% if page.imagecredit %}
         {% for imagecredit in page.imagecredit %}
           <a href="{{ imagecredit }}" class="right">
             <svg
@@ -118,11 +118,17 @@ layout: default
         {% endif %}
       </div>
 
+      {% if page.original %}
       <div class="sm-col sm-col-12" style="padding-top: 10px">
-        {% if page.original %} Original recipe:
+        Original recipe:
         <a href="{{page.original}}">{{page.original}}</a>
-        {% endif %}
       </div>
+      {% endif %}
+      {% if page.source %}
+      <div class="sm-col sm-col-12" style="padding-top: 10px">
+        Source: {{page.source}}
+      </div>
+      {% endif %}
     </div>
     <!-- end recipe and directions -->
 
