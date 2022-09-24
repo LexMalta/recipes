@@ -124,7 +124,9 @@ layout: default
     <div class="clearfix mxn2">
       {% for component in page.recipes %}
       <div class="sm-col sm-col-4 px2">
-        {% for recipe in site.recipes %} {% if recipe.title == component %}
+        {% for recipe in site.recipes %} 
+        {% assign recipe_name = recipe.relative_path | split: "/" | last %}
+        {% if recipe_name == component %}
         <h4 class="blue center">{{recipe.title}}</h4>
 
         {% for image in recipe.image %}

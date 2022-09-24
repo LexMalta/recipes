@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: "Coffee bean cookies"
-image: coffee_bean_cookie.jpg
+image: coffee-bean-cookie.jpg
 tags: cookie, dessert
 original: https://pigoutyvr.com/2020/03/26/coffee-bean-cookies-recipe/
 
@@ -19,6 +19,6 @@ notes:
 - Notes are cool
 
 recipe:
-- Oat Pikelets
-- link to other recipes with recipe.title
+- oat-pikelets.md
+- mashed-potato.md
 ---

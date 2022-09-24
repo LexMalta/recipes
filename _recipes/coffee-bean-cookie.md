@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: "Coffee bean cookies"
-image: coffee_bean_cookie.jpg
+image: coffee-bean-cookie.jpg
 tags: cookie, dessert
 original: https://pigoutyvr.com/2020/03/26/coffee-bean-cookies-recipe/
 

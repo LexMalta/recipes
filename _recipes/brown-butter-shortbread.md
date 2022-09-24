@@ -28,9 +28,9 @@ notes:
 - You cannot substitute custard powder for the cornstarch. It smells delicious, but is so very, very dry.
 - You don't need to use a stand mixer. I mixed it by hand and it turned out well. Just takes more effort, and makes it more important that you have soft butter.
 
-recipe:
-- Browned butter
-- Toasted sugar
+recipes:
+- browned-butter.md
+- toasted-sugar.md
 ---
 From Binging with Babish. He was inspired by Ted Lasso.
 Video can be found here: https://www.youtube.com/watch?v=r_yBqWHtWMo
