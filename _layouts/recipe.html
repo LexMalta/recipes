@@ -1,40 +1,52 @@
 ---
 layout: default
 ---
+<!-- create empty array -->
+{% assign sub_recipes = "" | split: "," %}
+{% for page_recipe in page.recipes %}
+  {% for site_recipe in site.recipes %}
+    {% assign site_recipe_name = site_recipe.relative_path | split: "/" | last %}
+    {% if site_recipe_name == page_recipe %}
+      {% assign sub_recipes = sub_recipes | push: site_recipe %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
 
 <div class="container" itemscope itemtype="http://schema.org/Recipe">
   <!-- call up the image and image credit link -->
   {% for image in page.image %}
-  <div class="xs-p2">
-    <img
-      itemprop="image"
-      src="{{site.baseurl}}/images/{{ image }}"
-      style="
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 306px;
-        max-height: 306px;
-      "
-    />
-    {% if page.imagecredit %} {% for imagecredit in page.imagecredit %}
-    <a href="{{ imagecredit }}" class="right">
-      <svg
-        class="js-geomicon geomicon"
-        width="14"
-        height="14"
-        data-icon="camera"
-        viewBox="0 0 32 32"
-        style="fill: currentcolor"
-      >
-        <title>camera icon</title>
-        <path
-          d="M0 6 L8 6 L10 2 L22 2 L24 6 L32 6 L32 28 L0 28 z M9 17 A7 7 0 0 0 23 17 A7 7 0 0 0 9 17"
-        ></path>
-      </svg>
-    </a>
-    {% endfor %} {% endif %}
-  </div>
+    <div class="xs-p2">
+      <img
+        itemprop="image"
+        src="{{site.baseurl}}/images/{{ image }}"
+        style="
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 306px;
+          max-height: 306px;
+        "
+      />
+      {% if page.imagecredit %} 
+        {% for imagecredit in page.imagecredit %}
+          <a href="{{ imagecredit }}" class="right">
+            <svg
+              class="js-geomicon geomicon"
+              width="14"
+              height="14"
+              data-icon="camera"
+              viewBox="0 0 32 32"
+              style="fill: currentcolor"
+            >
+              <title>camera icon</title>
+              <path
+                d="M0 6 L8 6 L10 2 L22 2 L24 6 L32 6 L32 28 L0 28 z M9 17 A7 7 0 0 0 23 17 A7 7 0 0 0 9 17"
+              ></path>
+            </svg>
+          </a>
+        {% endfor %}
+      {% endif %}
+    </div>
   {% endfor %}
 
   <article class="post-content px2">
@@ -67,8 +79,8 @@ layout: default
         </h4>
         <ul>
           <!-- list components that make up recipe -->
-          {% for component in page.recipes %}
-          <li>{{ component | markdownify }}</li>
+          {% for component in sub_recipes %}
+          <li>{{ component.title | markdownify }}</li>
           {% endfor %}
         </ul>
         {% endif %} {% if page.ingredients %}
@@ -122,14 +134,10 @@ layout: default
     </div>
 
     <div class="clearfix mxn2">
-      {% for component in page.recipes %}
+      {% for sub_recipe in sub_recipes %}
       <div class="sm-col sm-col-4 px2">
-        {% for recipe in site.recipes %} 
-        {% assign recipe_name = recipe.relative_path | split: "/" | last %}
-        {% if recipe_name == component %}
-        <h4 class="blue center">{{recipe.title}}</h4>
-
-        {% for image in recipe.image %}
+        <h4 class="blue center">{{sub_recipe.title}}</h4>
+        {% for image in sub_recipe.image %}
         <div
           class="image ratio bg-cover"
           style="background-image:url({{site.baseurl}}/images/{{ image }});"
@@ -140,7 +148,7 @@ layout: default
             src="{{site.baseurl}}/images/{{ image }}"
           />
         </div>
-        {% if recipe.imagecredit %} {% for imagecredit in recipe.imagecredit %}
+        {% if sub_recipe.imagecredit %} {% for imagecredit in sub_recipe.imagecredit %}
         <a href="{{ imagecredit }}" class="right">
           <svg
             class="js-geomicon geomicon"
@@ -162,7 +170,7 @@ layout: default
           {{ site.translation[site.language].ingredients }}
         </h4>
         <ul class="ingredients" itemprop="ingredients">
-          {% for item in recipe.ingredients %}
+          {% for item in sub_recipe.ingredients %}
           <li itemprop="ingredient">{{ item | markdownify }}</li>
           {% endfor %}
         </ul>
@@ -171,12 +179,11 @@ layout: default
           {{ site.translation[site.language].directions }}
         </h4>
         <ol itemprop="instructions">
-          {% for item in recipe.directions %}
+          {% for item in sub_recipe.directions %}
           <li>{{ item | markdownify }}</li>
           {% endfor %}
         </ol>
 
-        {% endif %} {% endfor %}
       </div>
       {% endfor %}
     </div>
