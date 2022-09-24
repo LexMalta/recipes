@@ -21,7 +21,4 @@ notes:
 - Works with fresh or frozen leaves (you don't need to defrost it, and the washing step will wash any ice off)
 - Can be stored in the fridge for up to 1 week.
 
-recipe:
-- oat-pikelets.md
-- mashed-potato.md
 ---
