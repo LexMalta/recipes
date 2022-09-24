@@ -90,7 +90,18 @@ layout: default
         <ul itemprop="ingredients">
           <!-- list ingredients that make up recipe -->
           {% for ingredient in page.ingredients %}
-          <li class="ingredient" itemprop="recipeIngredient">{{ ingredient | markdownify }}</li>
+            <!-- if ingredient is a list ingredient[0] will be nil, otherwise it's a map -->
+            {% if ingredient[0] == nil %}
+              <li class="ingredient" itemprop="recipeIngredient">{{ ingredient | markdownify }}</li>
+            {% else %}
+              <li class="ingredient" itemprop="recipeIngredient">{{ ingredient[0] | markdownify }}</li>
+              <ul>
+              {% for sub_ingredient in ingredient[1] %}
+                <li class="ingredient" itemprop="recipeIngredient">{{ sub_ingredient | markdownify }}</li>
+              {% endfor %}
+              </ul>
+            {% endif %}
+
           {% endfor %}
         </ul>
         {% endif %}
