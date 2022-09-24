@@ -18,7 +18,7 @@ notes:
 - This is a note
 - Notes are cool
 
-recipe:
+recipes:
 - oat-pikelets.md
 - mashed-potato.md
 ---
