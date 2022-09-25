@@ -6,8 +6,9 @@ tags: lunch, dinner, chinese
 source: mum
 
 ingredients:
-- 1kg pork neck, _wash and drain the meat_
-- 1 cup sugar, _to dry and tenderize the meat_
+    Meat:
+        - 1kg pork neck, _wash and drain the meat_
+        - 1 cup sugar, _to dry and tenderize the meat_
     Sauce:
         - 2 cloves of garlic, _finely chopped, grated in a microplane, or pressed in a garlic press_
         - 2 shallots, _(see note 1)_
