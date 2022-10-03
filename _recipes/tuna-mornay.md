@@ -1,8 +1,9 @@
 ---
 layout: recipe
-title: "Tuna Mornay"
+title: "Aunty Linda's Tuna Mornay"
 image: tuna-mornay.png
 tags: dinner, fish
+source: Aunty Linda
 
 ingredients:
 - 1 onion _finely diced_
@@ -32,4 +33,5 @@ directions:
 
 notes:
 - For cooking pasta - boil water, add pasta, don't wait for it to re-boil, cook for ~7 minutes
+- To add some extra flavour, add a tablespoon of dried onion at the same time as the rest of the onion.
 ---
