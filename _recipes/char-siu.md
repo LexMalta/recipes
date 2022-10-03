@@ -6,26 +6,26 @@ tags: lunch, dinner, chinese
 source: mum
 
 ingredients:
-    Meat:
-        - 1kg pork neck, _wash and drain the meat_
-        - 1 cup sugar, _to dry and tenderize the meat_
-    Sauce:
-        - 2 cloves of garlic, _finely chopped, grated in a microplane, or pressed in a garlic press_
-        - 2 shallots, _(see note 1)_
-        - 6 tablespoons of soy sauce
-        - 2 teaspoons of salt
-        - 1/2 teaspoon Chinese five spice
-        - 1 teaspoon sesame oil
-        - 1 tablespoon oyster sauce
-        - 2 tablespoons Mei Kuei Lu Chiew cooking wine
-        - 2 tablespoons ground bean sauce
-        - 1 tablespoon hoisin sauce
-        - 1 tablespoon sesame sauce
-        - 1/2 tablespoon ginger finely grated, or pressed in a garlic press
-    - Glaze:
-        - 4 tablespoons of honey or maltose
-        - 1/4 cup boiling water
-        - 4 tablespoons of sugar
+  Meat:
+    - 1kg pork neck, _wash and drain the meat_
+    - 1 cup sugar, _to dry and tenderize the meat_
+  Sauce:
+    - 2 cloves of garlic, _finely chopped, grated in a microplane, or pressed in a garlic press_
+    - 2 shallots, _(see note 1)_
+    - 6 tablespoons of soy sauce
+    - 2 teaspoons of salt
+    - 1/2 teaspoon Chinese five spice
+    - 1 teaspoon sesame oil
+    - 1 tablespoon oyster sauce
+    - 2 tablespoons Mei Kuei Lu Chiew cooking wine
+    - 2 tablespoons ground bean sauce
+    - 1 tablespoon hoisin sauce
+    - 1 tablespoon sesame sauce
+    - 1/2 tablespoon ginger finely grated, or pressed in a garlic press
+  Glaze:
+    - 4 tablespoons of honey or maltose
+    - 1/4 cup boiling water
+    - 4 tablespoons of sugar
 
 directions:
 - Mix together the pork neck and sugar. Leave it in the fridge to marinate for at least an hour. This should extract excess water from the meat.
