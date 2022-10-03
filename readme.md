@@ -29,3 +29,7 @@ A component recipe is a recipe made up of other recipes. To make a new component
 
 - Add a `recipes` list to your page
 - reference the recipe you wish to include by its filename
+
+# Formatting requirements
+- Tabs should be expanded to 2 spaces.
+- You can't start an item in a list with double quotes
