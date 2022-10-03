@@ -6,7 +6,7 @@ tags: cold, dessert
 original: https://www.donnahay.com.au/recipes/watermelon-granita
 
 ingredients:
-- ¾ cup (185ml) caster (superfine) sugar 150g
+- ¾ cup (185ml, 150g) caster (superfine) sugar
 - 1½ cups (375ml) water
 - 1.4kg seedless watermelon, _chopped_
 - ¼ cup (60ml) lemon juice
