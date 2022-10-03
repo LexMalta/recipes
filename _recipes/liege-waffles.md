@@ -29,10 +29,9 @@ directions:
 - Prepare in your waffle maker, according to instructions.
 
 notes:
-- "Flax eggs" or "chia seed eggs" also work in place of the eggs in this recipe, if you want to make it egg-free / vegan.
+- You can use "Flax eggs" or "chia seed eggs" in place of the eggs in this recipe, if you want to make it egg-free / vegan.
 - Dark brown sugar also works in place of the light brown sugar, if that's all you have.
 - Can replace the honey with maple syrup, if you can't have honey. Not sure of the weight equivalent though, as I haven't weighed 2 tablespoons of maple syrup.
 - Can replace the butter with Nuttelex buttery, weight for weight.
 - If you don't have Belgian pearl sugar, you can crush sugar cubes inside a ziplock bag to make makeshift pearl sugar. Otherwise, keep 120g white sugar in a bowl and coat the waffle balls before placing in the waffle maker.
-
 ---
