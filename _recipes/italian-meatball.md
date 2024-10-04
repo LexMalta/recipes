@@ -10,7 +10,7 @@ ingredients:
 - 500g pork mince, _(see note 1)_
 - 2 eggs, _whisked_ _(see note 2)_
 - 4 slices of Italian bread 5 ounces (141g), _(see note 3)_
-- 1 cup bread crumbs
+- 1 cup (115g) bread crumbs
 - 4 tablespoons grated parmesan, _optional_
 - 1/2 tsp garlic salt
 - 1 tsp salt
