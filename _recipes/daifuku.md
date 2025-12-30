@@ -31,4 +31,6 @@ directions:
 notes:
 - Keep the Daifuku mochi in an airtight container and store in a cool, dry place. Enjoy within 2 days. For summer months when it‘s very hot, you may want to refrigerate these; since mochi gets hard in the refrigerator, you will need to wrap the container with a thick kitchen towel to keep it cool but not cold.
 
+recipes:
+  - anko.md
 ---
