@@ -6,7 +6,7 @@ tags: dessert
 original: https://www.davidlebovitz.com/planet-of-the-c-1/
 
 ingredients:
-- 2 cupes (500ml) whole milk
+- 2 cups (500ml) whole milk
 - 1 tbsp sugar
 - 1/4 tsp sea salt
 - 3 tbsp (45g) butter, _salted or unsalted, melted_ (see Note 1)
