@@ -7,7 +7,7 @@ original: https://www.davidlebovitz.com/planet-of-the-c-1/
 
 ingredients:
 - 2 cups (500ml) whole milk
-- 1 tbsp sugar
+- 1 tbsp (18g) sugar
 - 1/4 tsp sea salt
 - 3 tbsp (45g) butter, _salted or unsalted, melted_ (see Note 1)
 - 1/2 cup (70g) buckwheat flour
