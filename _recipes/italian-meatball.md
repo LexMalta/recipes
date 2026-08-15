@@ -29,5 +29,5 @@ notes:
 - You can skip the egg. They'll be a bit drier, but if you can't have egg, then it's better to have slightly dry meatballs than no meatballs!
 - I use the Coles ciabatta. The crust ends up being a bit tough in the meatball, so I remove them.
 - While you can pan fry these meatballs, it's much easier and faster to bake them in the oven.
-- You can just use a spoon to scoop the meat and roll them with your hands. Saves you washing meat out of a cookie scoop. We place the meatballs directly onto a rack and they're probably not as nice as baking them on a cookie cooling rack, but again, less effort while cleaning up.
+- You can just use a spoon to scoop the meat and roll them with your hands. Saves you washing meat out of a cookie scoop. We place the meatballs directly onto a tray and they're probably not as nice as baking them on a cookie cooling rack, but again, less effort while cleaning up.
 ---
