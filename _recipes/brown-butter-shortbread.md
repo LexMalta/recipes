@@ -16,9 +16,10 @@ ingredients:
 
 directions:
 - Brush a 9.5 x 13in (1/4 sheet, 32 x 23cm) rimmed baking sheet with a light coating of soft butter. Add 1-2 tablespoons of demerara sugar and tilt the pan until it is well coated. _(see note 2)_
-- Preheat the oven to 300 °F.
+- Preheat the oven to 150°C (300°F).
 - Combine butter, browned, butter, salt, and toasted sugar in the bowl of a stand mixer. Mix well for 2-3 minutes.
 - Meanwhile, combine the flour and cornstarch in a bowl. Whisk well to combine.
+- Add half of the dry ingredients and continue mixing the ingredients for 30 seconds. Then add the remaining dry ingredients and mix until a crumbly dough forms.
 - Transfer the dough to the prepared pan and gently press it into the sides and corners of the tray.
 - Top the shortbread with a generous sprinkling of more demerara sugar. (see Note 6)
 - Bake for 40 minutes or until the top is set and has become lightly golden. (See Note 7)
