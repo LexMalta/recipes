@@ -22,7 +22,7 @@ directions:
 - Add half of the dry ingredients and continue mixing the ingredients for 30 seconds. Then add the remaining dry ingredients and mix until a crumbly dough forms.
 - Transfer the dough to the prepared pan and gently press it into the sides and corners of the tray.
 - Top the shortbread with a generous sprinkling of more demerara sugar. (see Note 6)
-- Bake for 40 minutes or until the top is set and has become lightly golden. (See Note 7)
+- Bake for 40 minutes or until the top is set and has become lightly golden. (See Note 7) If you rolled out the dough and cut it into shapes, bake for 10-12 minutes, depending on the size of the shapes.
 - Allow the shortbread to cool for 10-15 minutes before cutting with a thin knife.
 - Allow to cool for a minimum of 4 hours, or up to overnight. (See Note 8)
 - Once the cookies are completely cooled, put in an airtight container, or eat right away.
